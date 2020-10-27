@@ -16,7 +16,6 @@ function SearchBox({ setRobots, searchInput, setSearchInput}) {
 
     return (
         <div className='search_container'>
-            <h1>Search Box</h1>
             <input 
             onChange={(e)=>{
                 handleChange(e)
